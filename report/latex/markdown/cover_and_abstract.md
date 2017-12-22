@@ -1,18 +1,18 @@
 ---
 university_zh: '國立虎尾科技大學'
 institute_zh: '機械設計工程系'
-category_zh: '電腦輔助設計實習 ag1 期末報告'
-title_zh: 'PyQt5 事件導向計算器'
-title_en: 'PyQt5 Event-Driven Calculator Project'
+category_zh: '電腦輔助設計實習 bg3 期末報告'
+title_zh: '鋼球運動系統設計'
+title_en: 'Ball sports system design'
 author:
-- 設計二乙 1731001 XXX
-- 設計二乙 1731001 XXX
-- 設計二乙 1731001 XXX
-- 設計二乙 1731002 XXX
-- 設計二乙 1731002 XXX
+- 設計二乙 40523207 于宥威
+- 設計二乙 40523209 王博聖
+- 設計二乙 40523216 周志翰
+- 設計二乙 40523217 周龍豐
+- 設計二乙 40523218 林狄葦
 
 advisor_zh: '嚴家銘'
-date: '2017.12.18'
+date: '2017.12.22'
 ---
 
 ---
