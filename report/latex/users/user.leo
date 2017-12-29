@@ -51,6 +51,9 @@
 <v t="yen.20170429220335.1" a="E"><vh>@clean appendix.md</vh>
 <v t="yen.20170429220335.2"><vh>附錄</vh></v>
 </v>
+<v t="leo.20171229140020.1" a="E"><vh>@clean 小組工作分配.md</vh>
+<v t="leo.20171229140056.1"><vh>各組員分工分配</vh></v>
+</v>
 </v>
 </v>
 </v>
@@ -86,6 +89,7 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 "calculator.md", 
 #"discussion.md", 
 "results.md", 
+"小組工作分配.md",
 ])
 
 # 若系統並未正確轉檔, 可以將 os.system 改為 g.es 表示要使用 Leo Editor 的 global 物件中的 echo string 將指令印在 log 區
@@ -192,14 +196,9 @@ QLineEdit#editorLabel {
 vertical: body pane on the botton</t>
 <t tx="ahshoe.20170317115820.1">---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    這裡是摘要。 
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
-    
-    本研究的重點在於 ...
+    本研究的重點在於小組設計提球系統和軌道,並進行模擬,讓鋼球可以在軌道上順利運行
 ---
 
 
@@ -221,6 +220,23 @@ abstract: |
 參考 - 詳列所引用的參考內容
 
 附錄 - 附加值得參考的詳細內容</t>
+<t tx="leo.20171229140020.1">小組工作分配
+===
+小組工作分配
+
+
+@others</t>
+<t tx="leo.20171229140056.1">
+組長:林狄葦
+
+期末報告編輯人:林狄葦
+
+提球系統構思:各組員
+
+提球系統繪製:王博聖
+
+系統模擬:
+</t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
 <t tx="yen.20170429132400.1">每一位協同人員各在 users 目錄中建立一個 .leo 檔案

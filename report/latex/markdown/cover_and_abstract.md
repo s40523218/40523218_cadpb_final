@@ -17,14 +17,9 @@ date: '2017.12.22'
 
 ---
 abstract: |
-    這裡是摘要內容。A pipe character, followed by an indented block of text is treated as a literal block, in which newlines are preserved throughout the block, including the final newline.
+    這裡是摘要。 
     
-    + 以 YAML 的方式插入。
-    + The '+' indicator says to keep newlines at the end of text blocks.
-    + 使用 Markdown 語法。
-    + 前面使用加號
-    
-    本研究的重點在於 ...
+    本研究的重點在於小組設計提球系統和軌道,並進行模擬,讓鋼球可以在軌道上順利運行
 ---
 
 
