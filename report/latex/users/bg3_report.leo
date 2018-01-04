@@ -83,10 +83,10 @@ g.es("---Pandoc---")
 # 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
 chapter_list = " ".join("./paragraph/" + i for i in [
 "introduction.md",
-"portable_system.md", 
-"python_introduction.md", 
-"pyqt5_introduction.md", 
-"calculator.md", 
+#"portable_system.md", 
+#"python_introduction.md", 
+#"pyqt5_introduction.md", 
+#"calculator.md", 
 #"discussion.md", 
 "results.md", 
 "小組工作分配.md",
@@ -201,7 +201,6 @@ abstract: |
     本研究的重點在於小組設計提球系統和軌道,並進行模擬,讓鋼球可以在軌道上順利運行
 ---
 
-
 </t>
 <t tx="leo.20171119234752.1"></t>
 <t tx="leo.20171119234822.1"></t>
@@ -235,7 +234,7 @@ abstract: |
 
 提球系統繪製:王博聖
 
-系統模擬:
+系統模擬:林狄葦
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
@@ -253,15 +252,16 @@ abstract: |
 <t tx="yen.20170429214838.3">前言內容。
 
 
+
+
 這是我們設計的提球系統的圖片：
 
 ![main body][]
 
 [main body]: ./images/main body.png {#fig:主體}
 
-主要是利用連桿機構將球從低處抬到高處
 
-</t>
+主要是利用連桿機構將球從低處抬到高處</t>
 <t tx="yen.20170429214845.1"></t>
 <t tx="yen.20170429215041.1">可攜程式系統介紹
 ===
