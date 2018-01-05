@@ -83,7 +83,7 @@ g.es("---Pandoc---")
 # 選擇所要納入的 Markdown 檔案, 不納入的檔案名稱前方加上  # 即可
 chapter_list = " ".join("./paragraph/" + i for i in [
 "introduction.md",
-#"portable_system.md", 
+"portable_system.md", 
 #"python_introduction.md", 
 #"pyqt5_introduction.md", 
 #"calculator.md", 
@@ -253,44 +253,29 @@ abstract: |
 
 
 
-
 這是我們設計的提球系統的圖片：
 
 ![main body][]
 
 [main body]: ./images/main body.png {#fig:主體}
 
-
-主要是利用連桿機構將球從低處抬到高處</t>
+</t>
 <t tx="yen.20170429214845.1"></t>
-<t tx="yen.20170429215041.1">可攜程式系統介紹
+<t tx="yen.20170429215041.1">提球系統介紹
 ===
 
-可攜程式系統介紹
+提球系統介紹
 
 @others</t>
-<t tx="yen.20170429215130.1">啟動與關閉
----
+<t tx="yen.20170429215130.1">
 
-Windows 的內容
+主要是利用連桿機構將球從低處抬到高處
 
-有一張圖片：
+是參考老師這部影片的機構做出來的:
 
-![Kmol][]
+https://vimeo.com/245325620
 
-稱為圖 {@fig:駱駝}。
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-啟動與關閉2
----
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案
-
-啟動與關閉3
----
-
-各 md 檔案可以在 images 目錄下自訂與 md 檔案名稱相同的子目錄存放影像檔案</t>
+</t>
 <t tx="yen.20170429215252.1">Python 程式語法
 ===
 
