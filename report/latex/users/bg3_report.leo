@@ -18,7 +18,9 @@
 <v t="leo.20171218141522.1"><vh>報告章節規劃</vh></v>
 <v t="yen.20170429103742.1" a="E"><vh>@path ./../</vh>
 <v t="yen.20170429103940.1" a="E"><vh>@path markdown</vh>
-<v t="ahshoe.20170322182713.1"><vh>@edit reference.md</vh></v>
+<v t="ahshoe.20170322182713.1" a="E"><vh>@edit reference.md</vh>
+<v t="leo.20180111194615.1"><vh>1</vh></v>
+</v>
 <v t="ahshoe.20170322181453.1"><vh>@edit refer.bib</vh></v>
 <v t="leo.20171119234752.1" a="E"><vh>封面以及摘要</vh>
 <v t="ahshoe.20161120122151.1" a="E"><vh>@clean cover_and_abstract.md</vh>
@@ -45,8 +47,17 @@
 <v t="yen.20170429215922.1" a="E"><vh>@clean discussion.md</vh>
 <v t="yen.20170429220001.1"><vh>程式開發心得</vh></v>
 </v>
+<v t="leo.20180111193458.1" a="E"><vh>@clean 過程與方法.md</vh>
+<v t="leo.20180111193606.1"><vh>21</vh></v>
+</v>
 <v t="yen.20170429220128.1" a="E"><vh>@clean results.md</vh>
 <v t="yen.20170429220137.1"><vh>期末報告結論</vh></v>
+</v>
+<v t="leo.20180111191934.1" a="E"><vh>@clean 軌道.md</vh>
+<v t="leo.20180111191915.1"><vh>軌道</vh></v>
+<v t="leo.20180111192844.1"><vh>1</vh></v>
+<v t="leo.20180111193111.1"><vh>newHeadline</vh></v>
+<v t="leo.20180111193112.1"><vh>newHeadline</vh></v>
 </v>
 <v t="yen.20170429220335.1" a="E"><vh>@clean appendix.md</vh>
 <v t="yen.20170429220335.2"><vh>附錄</vh></v>
@@ -88,8 +99,10 @@ chapter_list = " ".join("./paragraph/" + i for i in [
 #"pyqt5_introduction.md", 
 #"calculator.md", 
 #"discussion.md", 
-"results.md", 
+"過程與方法.md",
+"軌道.md",
 "小組工作分配.md",
+"results.md", 
 ])
 
 # 若系統並未正確轉檔, 可以將 os.system 改為 g.es 表示要使用 Leo Editor 的 global 物件中的 echo string 將指令印在 log 區
@@ -202,6 +215,11 @@ abstract: |
 ---
 
 </t>
+<t tx="ahshoe.20170322182713.1">@language md
+參考文獻
+===
+
+@others</t>
 <t tx="leo.20171119234752.1"></t>
 <t tx="leo.20171119234822.1"></t>
 <t tx="leo.20171218141522.1">標題頁 - 含報告標題、作者、日期與所屬單位
@@ -235,6 +253,58 @@ abstract: |
 提球系統繪製:王博聖
 
 
+</t>
+<t tx="leo.20180111191915.1">
+![40523207的軌道][]
+
+[07]: ./images/09.png {#fig:07}
+
+@others</t>
+<t tx="leo.20180111191934.1">軌道
+===
+
+
+
+
+@others
+
+</t>
+<t tx="leo.20180111192844.1">![40523217的軌道][]
+
+[17]: ./images/17.png {#fig:17}
+
+@others</t>
+<t tx="leo.20180111193111.1">
+![40523209的軌道][]
+
+[40523209]: ./images/09.png {#fig:09}
+
+
+@others</t>
+<t tx="leo.20180111193112.1">![18][]
+
+[40523218]: ./images/18.png {#fig:18}</t>
+<t tx="leo.20180111193458.1">過程與方法
+===
+
+
+
+
+@others</t>
+<t tx="leo.20180111193606.1">先討論提球系統，利用連桿機構做提球的動作，繪圖用onshape、Inventor、Auto cad、Solidworks 等軟體，
+轉成stl後放入Vrep內模擬整個系統</t>
+<t tx="leo.20180111194615.1">---
+reference 1
+
+網址
+
+
+
+
+https://vimeo.com/245325620
+
+
+---
 </t>
 <t tx="yen.20170429103742.1"></t>
 <t tx="yen.20170429103940.1"></t>
